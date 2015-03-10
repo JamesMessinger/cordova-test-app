@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.cordova.test" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Cordova Test App</name>
+    <description>
+        Test web pages on mobile devices inside a Cordova container
+    </description>
+    <author email="dev@cordova.apache.org" href="http://jamesmessinger.com">
+        James Messinger
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+    <preference name="windows-target-version" value="8.1" />
+</widget>

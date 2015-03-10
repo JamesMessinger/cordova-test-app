@@ -1,0 +1,35 @@
+{
+  "name": "cordova-test-app",
+  "version": "1.0.0",
+  "description": "Test web pages on mobile devices inside a Cordova container",
+  "keywords": [
+    "cordova",
+    "web",
+    "app",
+    "mobile",
+    "device",
+    "test"
+  ],
+  "main": "www/index.html",
+  "scripts": {
+    "cordova": "cordova",
+    "ios": "cordova emulate ios",
+    "android": "cordova emulate android",
+    "winphone": "cordova emulate windows -- --phone",
+    "windows": "cordova emulate windows -- --win"
+  },
+  "author": {
+    "name": "James Messinger",
+    "url": "http://jamesmessinger.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/BigstickCarpet/cordova-test-app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigstickCarpet/cordova-test-app.git"
+  },
+  "dependencies": {
+    "cordova": "^4.3.0"
+  },
+  "devDependencies": {}
+}
