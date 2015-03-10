@@ -62,8 +62,8 @@
     "dojo"          : false,    // Dojo Toolkit
     "jquery"        : false,    // jQuery
     "mootools"      : false,    // MooTools
-    "node"          : true,     // Node.js
-    "nonstandard"   : true,     // Widely adopted globals (escape, unescape, etc)
+    "node"          : false,     // Node.js
+    "nonstandard"   : false,     // Widely adopted globals (escape, unescape, etc)
     "prototypejs"   : false,    // Prototype and Scriptaculous
     "rhino"         : false,    // Rhino
     "worker"        : false,    // Web Workers
@@ -78,13 +78,6 @@
 
     // Custom Globals
     "globals": {
-        "_"             : true,
-        "env"           : true,
-        "describe"      : true,
-        "it"            : true,
-        "beforeEach"    : true,
-        "afterEach"     : true,
-        "expect"        : true,
-        "sinon"         : true
+        "device"    : true
     }
 }

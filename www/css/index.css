@@ -1,0 +1,82 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* prevent highlighting text when tapped */
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background-color: #30b7ff;
+    padding: 22px 0 5px 0;
+    border-bottom: solid 1px white;
+}
+
+p {
+    margin: 1em;
+    line-height: 1.4;
+}
+
+form {
+    background-color: #30b7ff;
+    padding: 1em;
+}
+
+input, button {
+    border: none;
+    padding: 5px;
+    height: 28px;
+}
+
+input {
+    width: 85%;
+}
+
+button {
+    background-color: #168bff;
+    color: white;
+    width: 12%;
+}
+
+dl {
+    margin: 1em;
+}
+
+dt {
+    font-weight: bold;
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 3px;
+}
+
+dd {
+    display: inline-block;
+    width: 60%;
+    margin-left: 5px;
+}
+
+#user-agent-label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+#user-agent {
+    display: block;
+    width: 100%;
+}
