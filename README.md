@@ -1,9 +1,9 @@
 Cordova Test App
 ============================
 
-| Test web pages on mobile devices inside a Cordova container |
-|-------------------------------------------------------------|
-| Cordova apps run in a webview container, which is _not_ the same as the platform's built-in browser. Many <a href="http://caniuse.com">"supported" features</a> don't work. So use this app to test your web pages.
+### Test web pages on mobile devices inside a Cordova container
+
+Cordova apps run in a webview container, which is _not_ the same as the platform's built-in browser. Many <a href="http://caniuse.com">"supported" features</a> don't work. So use this app to test your web pages.
 
 
 Installation and Use
