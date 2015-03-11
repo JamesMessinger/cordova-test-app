@@ -5,6 +5,8 @@ Cordova Test App
 
 Cordova apps run in a webview container, which is _not_ the same as the platform's built-in browser. Many <a href="http://caniuse.com">"supported" features</a> don't work. So use this app to test your web pages.
 
+![Screenshot](https://github.com/BigstickCarpet/cordova-test-app/blob/master/img/screenshot.png)
+
 
 Installation and Use
 --------------------------
