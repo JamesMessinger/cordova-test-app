@@ -12,6 +12,7 @@
   ],
   "main": "www/index.html",
   "scripts": {
+    "start": "cordova serve",
     "cordova": "cordova",
     "ios": "cordova emulate ios",
     "android": "cordova emulate android",

@@ -63,12 +63,14 @@ dt {
     display: inline-block;
     width: 30%;
     margin-bottom: 3px;
+    vertical-align: top;
 }
 
 dd {
     display: inline-block;
     width: 60%;
     margin-left: 5px;
+    vertical-align: top;
 }
 
 #user-agent-label {
@@ -79,4 +81,5 @@ dd {
 #user-agent {
     display: block;
     width: 100%;
+    margin: 0;
 }

@@ -30,8 +30,17 @@
         var theForm = document.getElementById('theForm');
         var theUrl = document.getElementById('theUrl');
 
-        theUrl.onchange = theUrl.onkeydown = theUrl.onkeyup = function() {
-            theForm.action = theUrl.value;
+        if (typeof(localStorage) !== 'undefined') {
+            theUrl.value = localStorage['cordova-test-app-url'] || '';
+        }
+
+        theForm.onsubmit = function(evt) {
+            if (typeof(localStorage) !== 'undefined') {
+                localStorage['cordova-test-app-url'] = theUrl.value;
+            }
+
+            window.location = theUrl.value;
+            evt.preventDefault();
         };
     }
 })();
