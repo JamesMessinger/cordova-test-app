@@ -30,7 +30,7 @@
     "url": "https://github.com/BigstickCarpet/cordova-test-app.git"
   },
   "dependencies": {
-    "cordova": "^4.3.0"
+    "cordova": "^5.0.0"
   },
   "devDependencies": {}
 }
