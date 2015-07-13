@@ -30,16 +30,24 @@
         var theForm = document.getElementById('theForm');
         var theUrl = document.getElementById('theUrl');
 
+        // Get the previous URL from local storage
         if (typeof(localStorage) !== 'undefined') {
             theUrl.value = localStorage['cordova-test-app-url'] || '';
         }
 
+        // When the form is submitted, redirect to the given URL
         theForm.onsubmit = function(evt) {
+            // Save the URL to local storage to pre-populate next time
             if (typeof(localStorage) !== 'undefined') {
                 localStorage['cordova-test-app-url'] = theUrl.value;
             }
 
+            // Go there
+            // NOTE: iOS & Android will load this URL in the Cordova webview (which is what we want).
+            //       But Windows Phone will launch IE and open the URL (which defeats the whole purpose)  :( 
             window.location = theUrl.value;
+            
+            // Don't actually submit the form
             evt.preventDefault();
         };
     }
